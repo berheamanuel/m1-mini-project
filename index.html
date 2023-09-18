@@ -9,23 +9,29 @@
 
   <body>
     <header>
-      <h4> <a href="amanuel@github.com">Github</a> </h4>
-      <h4> <a href="Portofolio">Portofolio</a> </h4>
-      <h4> <a href="amanuelberhe@gmail.com">Contact</a> </h4>
+      <nav>
+      <ul>
+      <li><a href="amanuel@github.com">Github</a></li>
+      <li> <a href="Portofolio">Portofolio</a> </li>  
+      <li> <a href="#contact">Contact</a> </li>
+      </ul>
+      </nav>
     </header>
-    
+
+       
     <main>
       <section>
         <h1>My New Website</h1>
-        <div class="box">
+        <div class="logo">
           <img src="./assets/images/image-1.png" alt="box with number 1"/>
-                    
+          <p>hkgk nlglfll gjnnjnxmkds</p> 
         </div>
       </section>
 
-      <section>
+      <section class="section-1">
         <h2>Contact Information</h2>
-        <div class="contact">
+        <div id="section-1">
+          <form action="submit.php" method="post">
             <p>
                 <label for="name">
                   <span>Name: </span>                  
@@ -37,7 +43,11 @@
                   <span>Email: </span>                  
                 </label>
                 <input type="email" id="mail" name="usermail" required />
-            </p>          
+            </p>      
+            <p id="button">
+              <button type="submit">Send</button>
+            </p>   
+          </form> 
         </div>
       </section>
       <footer id="footer">
